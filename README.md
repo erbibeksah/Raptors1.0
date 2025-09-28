@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Raptors1.0 🔍 CLI Preview Tool with Plugin System
 
 A powerful, type-aware file preview CLI tool with AI +  dynamic plugin extensibility. Built for the **Raptors Hackathon SEP/2025** - delivering maximum functionality in minimal lines.
@@ -224,3 +225,7 @@ This tool was built for the CLI Line-Limit Hackathon with the following constrai
 ---
 
 *Built with ❤️ for developers who need quick, intelligent file inspection with the power of extensibility.*
+=======
+# Raptors1.0
+A powerful, type-aware file preview CLI tool with dynamic plugin extensibility. Built for the Hackathon - delivering maximum functionality in minimal lines.
+>>>>>>> 9e42dcc97f7a9e6f7e2a8075cf1acd9c5fb28baa
