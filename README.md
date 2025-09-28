@@ -11,7 +11,8 @@ A modular plugin system allows custom handlers and processors to be added with e
 
 Designed for speed, clarity, and extensibility, Raptors1.0 is ideal for DevOps workflows, data reviews, infosec triage, and file reconnaissance.
 
-<img width="727" height="798" alt="image" src="https://github.com/user-attachments/assets/60c5229d-7212-4cec-9f7d-0e127c1dda59" />
+<img width="1074" height="908" alt="image" src="https://github.com/user-attachments/assets/81c5dd7a-b66b-4234-818a-acf4fac9407b" />
+
 
 ## ✨ Features
 
