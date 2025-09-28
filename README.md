@@ -1,19 +1,28 @@
-<<<<<<< HEAD
-# Raptors1.0 🔍 CLI Preview Tool with Plugin System
+# Raptors1.0 🔍 – Smart, Extensible File Insight Tool
 
-A powerful, type-aware file preview CLI tool with AI +  dynamic plugin extensibility. Built for the **Raptors Hackathon SEP/2025** - delivering maximum functionality in minimal lines.
+> **CLI Line-Limit Hackathon 2025 Submission**  
+> *Exactly 250 executable lines of Python delivering maximum functionality*
+
+Raptors1.0 is a powerful command-line tool designed to provide intelligent previews and deep analysis of diverse file types. It goes beyond traditional file viewers by integrating AI-powered content summarization and an extensible plugin system — enabling developers, analysts, and security professionals to gain rapid insights from code, configuration, logs, datasets, and binaries.
+
+Raptors1.0 automatically detects file types (e.g., JSON, CSV, logs, Python, shell scripts, images, binaries) and renders a color-coded, human-friendly summary in the terminal. For structured formats like JSON or CSV, it highlights keys, columns, and formatting; for code, it performs lightweight syntax-aware coloring and supports AI-driven structural analysis. Security flags (e.g., world-writable files or exposed secrets) are also surfaced.
+
+A modular plugin system allows custom handlers and processors to be added with ease — making it adaptable to any domain-specific need (e.g., YAML validation, XML transformation, or proprietary log parsing). With optional OpenAI integration, users can receive intelligent summaries, anomaly detection in logs, or even code insights on the fly.
+
+Designed for speed, clarity, and extensibility, Raptors1.0 is ideal for DevOps workflows, data reviews, infosec triage, and file reconnaissance.
 
 ## ✨ Features
 
 ### 🎯 Core Capabilities
 - **Type-aware previews**: Intelligent file type detection and specialized rendering
+- **Comprehensive Analysis Engine**: Intelligent file type detection and specialized rendering
 - **Syntax highlighting**: Color-coded output for JSON, Python, JavaScript, shell scripts
 - **Binary analysis**: Hex dumps with ASCII representation for binary files
 - **Image metadata**: Dimensions and format info (with PIL/Pillow)
 - **Log parsing**: Timestamped log entries with error/warning highlighting
 - **CSV tables**: Formatted column display with row counting
 
-### 🔌 Plugin System
+### 🔌 Dynamic Plugin System Architecture
 - **Dynamic loading**: Load plugins at runtime with `--plugin` argument
 - **Handler plugins**: Override default file type processing completely
 - **Processor plugins**: Add analysis to any file type without disrupting core functionality
@@ -25,31 +34,46 @@ A powerful, type-aware file preview CLI tool with AI +  dynamic plugin extensibi
 - **File-specific prompts**: Tailored analysis for different file types
 - **Error handling**: Graceful degradation when AI is unavailable
 
-## 🚀 Installation & Usage
+## 🚀 Quick Start Guide
 
-### Basic Usage
+### ⚡ Zero-Dependency Setup
 ```bash
-# Preview any file
-py preview.py sample.json
+# 1. Download/clone the project
+git clone <repository-url>
 
-# Customize output
-py preview.py --lines 30 --width 100 sample.json
+# 2. Verify Python 3.6+
+py --version
 
-# Enable AI analysis (requires OPENAI_API_KEY)
-py preview.py --ai sample.json
+# 3. Run immediately - no installation needed!
+py preview.py --help
+
+# 4. Test with sample files
+py demo.py
+```
+
+### 🔧 Enhanced Setup (Optional)
+```bash
+# Install AI analysis capabilities
+pip install -r requirements.txt
+
+# Set up OpenAI integration
+export OPENAI_API_KEY="your-api-key-here"
+
+# Verify enhanced features
+py preview.py --ai ..\test_files/sample.py
 ```
 
 ### Plugin Usage
 ```bash
 # Load a single plugin
-py preview.py --plugin plugins/stats_plugin.py config.yaml
+py preview.py --plugin ..\plugins/stats_plugin.py ..\test_files/nginx.conf
 
 # Load multiple plugins
 py preview.py \
-  --plugin plugins/stats_plugin.py \
-  --plugin plugins/hash_plugin.py \
-  --plugin plugins/network_plugin.py \
-  sample.conf
+  --plugin ..\plugins/stats_plugin.py \
+  --plugin ..\plugins/hash_plugin.py \
+  --plugin ..\plugins/network_plugin.py \
+  ..\test_files/nginx.conf
 
 # Run the demo to see all features
 py demo.py
@@ -104,7 +128,7 @@ def analyze_content(filepath, content, file_type):
 
 2. **Load the plugin**
 ```bash
-py preview.py --plugin plugins/my_plugin.py myfile.xml
+py preview.py --plugin ..\plugins/my_plugin.py myfile.xml
 ```
 
 ### Plugin Types
@@ -131,7 +155,7 @@ py preview.py --plugin plugins/my_plugin.py myfile.xml
 │   ├── sample.cs
 │   ├── sample.json
 │   ├── sample.log
-│   ├── sample.png
+│   ├── nginx.conf
 │   └── network.conf
 └── README.md             # This file
 ```
@@ -139,7 +163,7 @@ py preview.py --plugin plugins/my_plugin.py myfile.xml
 ## 🏆 Hackathon Highlights
 
 ### Creative Constraint Solutions
-- **Plugin architecture** in exactly 228 lines of Python
+- **Plugin architecture** in exactly 250 lines of Python (neither 249 nor 251)
 - **Dynamic loading** without sacrificing readability
 - **Error isolation** preventing plugin failures from crashing the tool
 
@@ -155,7 +179,7 @@ py preview.py --plugin plugins/my_plugin.py myfile.xml
 - **Data exploration**: CSV parsing and JSON visualization
 
 ### Line Discipline
-- **Exactly 228 lines** in the main tool (under 250-line limit)
+- **Exactly 250 lines** in the main tool (under 250-line limit)
 - **No compression tricks** - clean, readable code
 - **Efficient patterns** - lambda functions, tuple unpacking, method chaining
 
@@ -220,12 +244,13 @@ This tool was built for the CLI Line-Limit Hackathon with the following constrai
 - **Creativity**: Plugin system within constraints
 - **Readability**: No compression tricks or obfuscation
 
-**Final line count: 228 lines** ✅
+**Final line count: 250 lines** ✅
 
 ---
 
 *Built with ❤️ for developers who need quick, intelligent file inspection with the power of extensibility.*
 =======
 # Raptors1.0
-A powerful, type-aware file preview CLI tool with dynamic plugin extensibility. Built for the Hackathon - delivering maximum functionality in minimal lines.
->>>>>>> 9e42dcc97f7a9e6f7e2a8075cf1acd9c5fb28baa
+*Demonstrating that creative constraints drive innovation and excellence*
+
+**Built with ❤️ for developers, DevOps engineers, and security professionals who need powerful, intelligent file inspection with unlimited extensibility.*
