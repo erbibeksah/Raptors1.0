@@ -145,7 +145,7 @@ py preview.py --plugin ..\plugins/my_plugin.py myfile.xml
 
 ```
 /
-├── preview.py             # Main CLI tool (228 executables lines)
+├── preview.py             # Main CLI tool (250 executables lines)
 ├── plugins/               # Plugin directory
 │   ├── stats_plugin.py    # File statistics analysis
 │   ├── hash_plugin.py     # File hashing functionality
@@ -247,9 +247,6 @@ This tool was built for the CLI Line-Limit Hackathon with the following constrai
 **Final line count: 250 lines** ✅
 
 ---
-
-*Built with ❤️ for developers who need quick, intelligent file inspection with the power of extensibility.*
-=======
 # Raptors1.0
 *Demonstrating that creative constraints drive innovation and excellence*
 
