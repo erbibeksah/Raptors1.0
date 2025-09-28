@@ -1,0 +1,15 @@
+{
+  "name": "Raptors 1.0",
+  "version": "1.0.0",
+  "features": [
+    "Type-aware previews",
+    "Plugin system",
+    "AI analysis",
+    "Color output"
+  ],
+  "config": {
+    "max_lines": 50,
+    "max_width": 120,
+    "plugins_enabled": true
+  }
+}

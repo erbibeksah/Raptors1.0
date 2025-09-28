@@ -1,0 +1,10 @@
+# CLI Preview Tool - Optional Dependencies
+# Core functionality works without these packages
+
+# AI Analysis Features (optional)
+# Enables --ai flag for intelligent content analysis
+openai
+
+# Enhanced Image Preview (optional) 
+# Provides detailed metadata for PNG, JPEG, GIF files
+Pillow
