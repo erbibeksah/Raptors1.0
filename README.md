@@ -55,13 +55,16 @@ Designed for speed, clarity, and extensibility, Raptors1.0 is ideal for DevOps w
 # 1. Download/clone the project
 git clone <repository-url>
 
-# 2. Verify Python 3.6+
+# 2. Directory of the project
+cd src
+
+# 3. Verify Python 3.6+
 py --version
 
-# 3. Run immediately - no installation needed!
+# 4. Run immediately - no installation needed!
 py preview.py --help
 
-# 4. Test with sample files
+# 5. Test with sample files
 py demo.py
 ```
 
@@ -71,7 +74,7 @@ py demo.py
 pip install -r requirements.txt
 
 # Set up OpenAI integration
-export OPENAI_API_KEY="your-api-key-here"
+export OPENAI_API_KEY="your-api-key-here" or With Terminal ($env:OPENAI_API_KEY = "your-open-api-key")
 
 # Verify enhanced features
 py preview.py --ai ..\test_files/sample.py
