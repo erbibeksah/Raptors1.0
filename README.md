@@ -53,7 +53,7 @@ Designed for speed, clarity, and extensibility, Raptors1.0 is ideal for DevOps w
 ### ⚡ Zero-Dependency Setup
 ```bash
 # 1. Download/clone the project
-git clone <repository-url>
+git clone https://github.com/erbibeksah/Raptors1.0.git
 
 # 2. Directory of the project
 cd src
