@@ -25,6 +25,10 @@ Designed for speed, clarity, and extensibility, Raptors1.0 is ideal for DevOps w
 - **Log parsing**: Timestamped log entries with error/warning highlighting
 - **CSV tables**: Formatted column display with row counting
 
+  <img width="838" height="592" alt="image" src="https://github.com/user-attachments/assets/7dcb12bc-1067-4a5b-bba5-e09688ad6daf" /> <img width="838" height="592" alt="image" src="https://github.com/user-attachments/assets/d786f34b-739a-4338-9c66-8d21d8e3ff0d" />
+
+
+
 ### 🔌 Dynamic Plugin System Architecture
 - **Dynamic loading**: Load plugins at runtime with `--plugin` argument
 - **Handler plugins**: Override default file type processing completely
@@ -32,10 +36,17 @@ Designed for speed, clarity, and extensibility, Raptors1.0 is ideal for DevOps w
 - **Error isolation**: Plugin failures don't crash the main application
 - **Extensible**: Add new functionality without modifying core code
 
+<img width="1150" height="800" alt="image" src="https://github.com/user-attachments/assets/97a601ca-10b5-4bbd-935a-6a4023e4265e" /> <img width="1150" height="800" alt="image" src="https://github.com/user-attachments/assets/06f1fb93-5e07-4d23-9504-8e2a644176d5" />
+
+
+
 ### 🤖 AI Integration
 - **OpenAI analysis**: AI-powered content insights and summaries
 - **File-specific prompts**: Tailored analysis for different file types
 - **Error handling**: Graceful degradation when AI is unavailable
+
+<img width="1548" height="848" alt="image" src="https://github.com/user-attachments/assets/3d171d2e-79a2-44bc-8d63-32bdc1382205" />
+
 
 ## 🚀 Quick Start Guide
 
